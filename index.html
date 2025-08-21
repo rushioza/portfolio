@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RUSHI OZA | Unity Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Smooth fade animation */
+    .fade-in {
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Header -->
+  <header class="bg-gray-800 p-6 shadow-lg sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-yellow-300">RUSHI OZA</h1>
+      <nav>
+        <a href="#about" class="mx-3 hover:text-yellow-400">About</a>
+        <a href="#projects" class="mx-3 hover:text-yellow-400">Projects</a>
+        <a href="#skills" class="mx-3 hover:text-yellow-400">Skills</a>
+        <a href="#contact" class="mx-3 hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20 bg-gradient-to-r from-purple-700 to-indigo-800 fade-in">
+    <img src="profile.png" alt="Profile" class="w-64 h-64 mx-auto rounded-full border-4 border-yellow-300 shadow-lg">
+    <h2 class="text-4xl font-bold mt-6">
+      <!-- Hi, I’m  --><span class="text-yellow-300">RUSHI OZA</span>
+    </h2>
+    <p class="mt-4 text-lg text-gray-200">Unity Developer
+      <!-- | C# Programmer | AR/VR Enthusiast -->
+    </p>
+    <a href="#projects"
+      class="mt-6 inline-block px-8 py-3 bg-gradient-to-r from-yellow-400 to-orange-400 text-black rounded-xl shadow-xl hover:scale-105 transform transition">🚀
+      View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container mx-auto py-16 px-6 fade-in">
+    <h3 class="text-3xl font-bold mb-6 border-b-2 border-yellow-400 inline-block">About Me</h3>
+    <p class="text-gray-300 leading-relaxed text-lg">
+      Enthusiastic and results-driven Unity Developer with 3.5 years of experience in building interactive 2D games, 3D
+      games, and Casino based slot games. Skilled in C#, Unity Engine, game optimization, and cross-platform deployment.
+      Passionate about delivering immersive user experiences through efficient coding, creative problem-solving, and
+      strong teamwork.
+    </p>
+  </section>
+
+
+
+  <!-- Skills -->
+  <!--  <section id="skills" class="container mx-auto py-16 px-6 fade-in">
+    <h3 class="text-3xl font-bold mb-6 border-b-2 border-yellow-400 inline-block">Skills</h3><!-- Skills -->
+  <section id="skills" class="container mx-auto py-16 px-6 fade-in">
+    <h3 class="text-3xl font-bold mb-6 border-b-2 border-yellow-400 inline-block">Technical Skills</h3>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-gray-300 text-lg">
+
+      <!-- Languages -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+        <h4 class="text-yellow-300 font-semibold mb-3">Languages</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <li>C#</li>
+          <!-- <li>C++</li> -->
+          <li>Python</li>
+        </ul>
+      </div>
+
+      <!-- Game Engines -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+        <h4 class="text-yellow-300 font-semibold mb-3">Game Engines</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Unity 3D</li>
+          <!-- <li>Unreal Engine</li> -->
+        </ul>
+      </div>
+
+      <!-- AR/VR Tools -->
+      <!-- <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+      <h4 class="text-yellow-300 font-semibold mb-3">AR/VR Tools</h4>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Vuforia</li>
+        <li>AR Foundation</li>
+        <li>Oculus SDK</li>
+        <li>XR Toolkit</li>
+      </ul>
+    </div> -->
+
+      <!-- Development Tools -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+        <h4 class="text-yellow-300 font-semibold mb-3">Development Tools</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Visual Studio</li>
+          <li>Git</li>
+          <!-- <li>Rider</li> -->
+          <!-- <li>Blender</li> -->
+        </ul>
+      </div>
+
+      <!-- Platforms -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+        <h4 class="text-yellow-300 font-semibold mb-3">Platforms</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <li>PC</li>
+          <li>Android</li>
+          <li>iOS</li>
+          <li>WebGL</li>
+        </ul>
+      </div>
+
+      <!-- Other Skills -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow hover:bg-gray-700 transition">
+        <h4 class="text-yellow-300 font-semibold mb-3">Other Skills</h4>
+        <ul class="list-disc list-inside space-y-1">
+          <!-- <li>Multiplayer (Photon / Mirror)</li> -->
+          <li>Addressables</li>
+          <li>Socket</li>
+          <!-- <li>DOTS</li> -->
+          <!-- <li>Shader Graph</li> -->
+          <li>UI/UX Design Basics</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- <ul class="grid md:grid-cols-3 gap-6 text-gray-300 text-lg">
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">Unity 3D / 2D</li>
+      <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">C# Programming</li>
+      <!-- <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">AR/VR (AR Foundation, Vuforia, Oculus SDK)</li> -->
+  <!-- <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">Socket </li> -->
+  <!-- <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">Git & Version Control</li> -->
+  <!-- <li class="bg-gray-800 p-4 rounded-lg shadow hover:bg-gray-700 transition">Shader Graph / Particle Systems</li> -->
+  <!-- </ul> -->
+  <!-- </section> -->
+
+  <!-- Projects -->
+  <section id="projects" class="bg-gray-800 py-16 px-6 fade-in">
+    <div class="container mx-auto">
+      <h3 class="text-3xl font-bold mb-10 border-b-2 border-yellow-400 inline-block">Projects</h3>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Project Card -->
+        <div class="bg-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition">
+          <!-- <img src="project1.png" alt="Project 1" class="w-full h-48 object-cover"> -->
+
+          <div class="bg-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition">
+  
+            <!-- Swiper Slider -->
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="project1_img1.png" alt="Project 1 Screenshot 1" class="w-full h-100 object-cover">
+                </div>
+                <div class="swiper-slide">
+                  <img src="project1_img2.png" alt="Project 1 Screenshot 2" class="w-full h-100 object-cover">
+                </div>
+                <div class="swiper-slide">
+                  <img src="project1_img3.png" alt="Project 1 Screenshot 3" class="w-full h-100 object-cover">
+                </div>
+                <!-- Add more slides if needed -->
+              </div>
+          
+              <!-- Controls -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          
+            <!-- Project Info -->
+            <div class="p-4">
+              <h4 class="text-xl font-semibold text-yellow-300">THUNDER Project</h4>
+              <p class="text-gray-400 text-sm mt-2">Casino based Slot games and its Bonuses.</p>
+              <a href="https://www.prominentgames.com/our-skill-games" class="text-yellow-400 mt-3 inline-block hover:underline">View Project →</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Project Card -->
+        <!-- <div class="bg-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition"> -->
+          <!-- <img src="project1.png" alt="Project 1" class="w-full h-48 object-cover"> -->
+
+          <div class="bg-gray-700 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition">
+  
+            <!-- Swiper Slider -->
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="project2_img1.jpg" alt="Project 2 Screenshot 1" class="w-full h-50 object-cover">
+                </div>
+                <div class="swiper-slide">
+                  <img src="project2_img2.jpg" alt="Project 2 Screenshot 2" class="w-full h-50 object-cover">
+                </div>
+                <div class="swiper-slide">
+                  <img src="project2_img3.jpg" alt="Project 2 Screenshot 3" class="w-full h-50 object-cover">
+                </div>
+                <div class="swiper-slide">
+                  <img src="project2_img4.jpg" alt="Project 2 Screenshot 3" class="w-full h-50 object-cover">
+                </div>
+                <!-- Add more slides if needed -->
+              </div>
+          
+              <!-- Controls -->
+              <div class="swiper-pagination"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div>
+            </div>
+          
+            <!-- Project Info -->
+            <div class="p-4">
+              <h4 class="text-xl font-semibold text-yellow-300">SPINZYPLAY Project</h4>
+              <p class="text-gray-400 text-sm mt-2">Online Slot Game across multiple platforms.</p>
+              <a href="https://www.prominentgames.com/our-skill-games" class="text-yellow-400 mt-3 inline-block hover:underline">View Project →</a>
+            </div>
+          </div>
+        </div>
+        <!-- Duplicate this block for more projects -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-gray-800 py-16 px-6 text-center fade-in">
+    <h3 class="text-3xl font-bold mb-6 border-b-2 border-yellow-400 inline-block">Contact</h3>
+    <p class="text-gray-300 mb-6">Let’s build something amazing together 🚀</p>
+    <div class="flex justify-center space-x-6">
+      <a href="mailto:your@email.com"
+        class="px-5 py-2 bg-yellow-400 text-black rounded-lg shadow hover:bg-yellow-300">📧 Email</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank"
+        class="px-5 py-2 bg-blue-600 rounded-lg shadow hover:bg-blue-500">🔗 LinkedIn</a>
+      <a href="https://github.com/yourgithub" target="_blank"
+        class="px-5 py-2 bg-gray-600 rounded-lg shadow hover:bg-gray-500">💻 GitHub</a>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-center py-4 text-gray-500 text-sm">
+    © 2025 Your Name. Built with ❤ using Tailwind CSS.
+  </footer>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    // Init Swiper
+    var swiper = new Swiper('.swiper', {
+      loop: true,
+      autoplay: { delay: 3000 },
+      pagination: { el: '.swiper-pagination', clickable: true },
+      navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+    });
+  </script>
+
+
+</body>
+
+</html>
